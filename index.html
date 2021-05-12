@@ -1,132 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home| Atharva</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Atharva's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make my projects look good and consistent.</p>
 
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the Biggest Heading</h1>
-    <h2>This is the Second Biggest Heading</h2>
-    <p>Let me show the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>Fluid Container</h3>
-    <div>This is a fluid container and will go till the specified page.</div>
-
-    <h3>Center Container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary Link</a>
-
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>Unordered List</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-    <ol>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>IAMDEVELOPER</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
-            </li>
+            <!-- <li class="list-item-inline">
+                <a class="link" href="/about.html">About</a>
+            </li> -->
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
-
-    <header>
-        <img src="images/hero.svg"/>
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading"><span style="color: var(--primary-color)">Atharva Muratkar</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>This will have a white background</p>
-    </section>
-
-    <section>
-        <h3>Off White Section</h3>
-        <p>This will have a off white background</p>
-    </section>
-
-    <hr>
-
-    <h2>@footer</h2>
-    <footer>
-        <div>
-            <ul>
-                <li>Social One</li>
-                <li>Social Two</li>
-                <li>Social Three</li>
-            </ul>
+    <section class="section grey">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familier with HTML5, CSS3, Web Hosting, Java, Kotlin, Mobile App Development and Firebase. I'm
+                learning JavaScript and ReactJS.</p>
         </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+
+            <a class="link link-primary" href="/projects.html">Browse Projects</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Connect with me at</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Atharva-14">GitHub</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/atharva-muratkar/">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/Atharva_142">Twitter</a>
+            </li>
+        </ul>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+
 </html>
