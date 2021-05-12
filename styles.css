@@ -10,6 +10,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: black;
     color: var(--primary-color);
+    margin: 0px;
 }
 
 hr {
